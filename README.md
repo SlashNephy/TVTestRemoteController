@@ -1,0 +1,2 @@
+# TVTestRemoteController
+ローカルネットワークからブラウザ経由で TVTest の操作をできるようにするプラグイン
