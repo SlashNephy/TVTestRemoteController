@@ -7,6 +7,10 @@
 #include <format>
 #include <vector>
 
+#include <cpprest/http_listener.h>
+#include <cpprest/http_msg.h>
+
+#define TVTEST_PLUGIN_CLASS_IMPLEMENT
 #include "TVTestPlugin.h"
 
 #endif
