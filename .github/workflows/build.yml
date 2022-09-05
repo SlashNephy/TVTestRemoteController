@@ -39,7 +39,7 @@ jobs:
       - name: MSBuild
         run: |
           msbuild TvTestRPC.sln `
-            -m ``
+            -m `
             -property:Configuration="Release" `
             -property:Platform="${{ matrix.platform }}"
 
