@@ -1,0 +1,68 @@
+cmake_minimum_required(VERSION 3.23)
+project(TVTestRemoteController)
+
+set(CMAKE_CXX_STANDARD 20)
+
+include_directories(.)
+include_directories(Thirdparty)
+include_directories(vcpkg_installed)
+include_directories(vcpkg_installed/x64-windows)
+include_directories(vcpkg_installed/x64-windows/x64-windows)
+include_directories(vcpkg_installed/x64-windows/x64-windows/include)
+include_directories(vcpkg_installed/x64-windows/x64-windows/include/brotli)
+include_directories(vcpkg_installed/x64-windows/x64-windows/include/cpprest)
+include_directories(vcpkg_installed/x64-windows/x64-windows/include/cpprest/details)
+include_directories(vcpkg_installed/x64-windows/x64-windows/include/pplx)
+
+add_executable(TVTestRemoteController
+        Thirdparty/TVTestPlugin.h
+        vcpkg_installed/x64-windows/x64-windows/include/brotli/decode.h
+        vcpkg_installed/x64-windows/x64-windows/include/brotli/encode.h
+        vcpkg_installed/x64-windows/x64-windows/include/brotli/port.h
+        vcpkg_installed/x64-windows/x64-windows/include/brotli/types.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/details/basic_types.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/details/cpprest_compat.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/details/fileio.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/details/http_helpers.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/details/http_server.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/details/http_server_api.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/details/nosal.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/details/resource.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/details/SafeInt3.hpp
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/details/web_utilities.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/astreambuf.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/asyncrt_utils.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/base_uri.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/containerstream.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/filestream.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/http_client.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/http_compression.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/http_headers.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/http_listener.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/http_msg.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/interopstream.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/json.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/oauth1.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/oauth2.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/producerconsumerstream.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/rawptrstream.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/streams.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/uri.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/uri_builder.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/version.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/ws_client.h
+        vcpkg_installed/x64-windows/x64-windows/include/cpprest/ws_msg.h
+        vcpkg_installed/x64-windows/x64-windows/include/pplx/pplx.h
+        vcpkg_installed/x64-windows/x64-windows/include/pplx/pplxcancellation_token.h
+        vcpkg_installed/x64-windows/x64-windows/include/pplx/pplxconv.h
+        vcpkg_installed/x64-windows/x64-windows/include/pplx/pplxinterface.h
+        vcpkg_installed/x64-windows/x64-windows/include/pplx/pplxlinux.h
+        vcpkg_installed/x64-windows/x64-windows/include/pplx/pplxtasks.h
+        vcpkg_installed/x64-windows/x64-windows/include/pplx/pplxwin.h
+        vcpkg_installed/x64-windows/x64-windows/include/zconf.h
+        vcpkg_installed/x64-windows/x64-windows/include/zlib.h
+        handler.cpp
+        handler.h
+        pch.cpp
+        pch.h
+        plugin.cpp)

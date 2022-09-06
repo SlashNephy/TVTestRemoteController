@@ -510,6 +510,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 vcpkg_installed/
+cmake-build-debug-visual-studio/
 
 public/app.js
 public/app.js.map
