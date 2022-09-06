@@ -7,9 +7,9 @@ on:
 
 permissions:
   contents: write
-  
+
 jobs:
-  build:
+  build-plugin:
     runs-on: windows-latest
 
     strategy:
