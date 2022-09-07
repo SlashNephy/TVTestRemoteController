@@ -1,0 +1,52 @@
+[
+  {
+    "name": "NHK総合・東京",
+    "type": "GR",
+    "serviceId": 1024
+  },
+  {
+    "name": "NHKEテレ・東京",
+    "type": "GR",
+    "serviceId": 1032
+  },
+  {
+    "name": "日テレ",
+    "type": "GR",
+    "serviceId": 1040
+  },
+  {
+    "name": "テレビ朝日",
+    "type": "GR",
+    "serviceId": 1064
+  },
+  {
+    "name": "TBS",
+    "type": "GR",
+    "serviceId": 1048
+  },
+  {
+    "name": "テレビ東京",
+    "type": "GR",
+    "serviceId": 1072
+  },
+  {
+    "name": "フジテレビ",
+    "type": "GR",
+    "serviceId": 1056
+  },
+  {
+    "name": "TOKYO MX",
+    "type": "GR",
+    "serviceId": 23608
+  },
+  {
+    "name": "BS11イレブン",
+    "type": "BS",
+    "serviceId": 211
+  },
+  {
+    "name": "AT-X",
+    "type": "CS",
+    "serviceId": 333
+  }
+]

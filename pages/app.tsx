@@ -29,7 +29,7 @@ const App: React.FC = () => {
         <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
           <BrowserRouter>
             <Routes>
-              <Route path="*" element={<Index />} />
+              <Route path="/" element={<Index />} />
             </Routes>
           </BrowserRouter>
         </ColorSchemeProvider>

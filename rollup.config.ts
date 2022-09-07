@@ -10,14 +10,15 @@ import { terser } from 'rollup-plugin-terser'
 
 import type { RollupOptions, Plugin } from 'rollup'
 
-const isDev = process.env.NODE_ENV === 'development'
+const env = process.env.NODE_ENV || 'production'
+const isDevelopment = env === 'development'
 
 const plugins: Plugin[] = [
   nodeResolve(),
   replace({
     preventAssignment: true,
     exclude: 'node_modules/**',
-    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+    'process.env.NODE_ENV': JSON.stringify(env),
   }),
   typescript(),
   babel({
@@ -25,25 +26,20 @@ const plugins: Plugin[] = [
     babelHelpers: 'bundled',
   }),
   commonjs(),
-]
-
-if (isDev) {
-  plugins.push(
-    ...[
-      serve({
-        verbose: true,
-        contentBase: ['public'],
-        host: 'localhost',
-        port: '3000',
-      }),
-      livereload({
-        watch: ['public'],
-      }),
-    ]
-  )
-} else {
-  plugins.push(...[terser(), bundleSize()])
-}
+  !isDevelopment && terser(),
+  !isDevelopment && bundleSize(),
+  isDevelopment &&
+    serve({
+      verbose: true,
+      contentBase: ['public'],
+      host: 'localhost',
+      port: '3000',
+    }),
+  isDevelopment &&
+    livereload({
+      watch: ['public'],
+    }),
+].filter((x): x is Exclude<typeof x, false> => !!x)
 
 const config: RollupOptions[] = [
   {
@@ -51,7 +47,7 @@ const config: RollupOptions[] = [
     output: {
       file: 'public/app.js',
       format: 'esm',
-      sourcemap: isDev,
+      sourcemap: isDevelopment,
     },
     plugins,
   },
