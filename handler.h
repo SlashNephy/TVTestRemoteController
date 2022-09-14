@@ -1,8 +1,6 @@
-﻿#include <future>
-#include "pch.h"
+﻿#pragma once
 
-using namespace web::http;
-using namespace web::http::experimental::listener;
+#include "pch.h"
 
 class HttpHandler {
 public:
