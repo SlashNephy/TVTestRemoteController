@@ -2038,9 +2038,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:0.2.2":
-  version: 0.2.2
-  resolution: "@slashnephy/eslint-config@npm:0.2.2"
+"@slashnephy/eslint-config@npm:0.2.4":
+  version: 0.2.4
+  resolution: "@slashnephy/eslint-config@npm:0.2.4"
   dependencies:
     "@typescript-eslint/eslint-plugin": 5.37.0
     "@typescript-eslint/parser": 5.37.0
@@ -2067,7 +2067,7 @@ __metadata:
     eslint: ^8
     prettier: ^2
     typescript: ^4
-  checksum: 7b87711dd382cbb94fb8886e5c279a1bc3b38e6c946cab8864150a5c838d52ef7410452c3f0870a52085be820326a4aab445aee3d31185b5431604a2c1a5533c
+  checksum: 9f3581538c30603c63faa9fcc7dbb935bce4a16e3d753c617bceffebe2be15a8446c1523f2b848effd142a8068f72a6a970e74bfaa1cb7b535c82df0bf1a046c
   languageName: node
   linkType: hard
 
@@ -7641,7 +7641,7 @@ __metadata:
     "@rollup/plugin-node-resolve": 14.1.0
     "@rollup/plugin-replace": 4.0.0
     "@rollup/plugin-typescript": 8.5.0
-    "@slashnephy/eslint-config": 0.2.2
+    "@slashnephy/eslint-config": 0.2.4
     "@slashnephy/prettier-config": 0.1.1
     "@sosukesuzuki/rollup-plugin-bundle-size": 0.1.0
     "@tabler/icons": ^1.93.0
