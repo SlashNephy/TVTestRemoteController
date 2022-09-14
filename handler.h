@@ -18,7 +18,7 @@ private:
     http_listener listener;
     TVTest::CTVTestApp *app;
 
-    void handle_get(const http_request &message);
+    void handle_get(const http_request &message, const utility::string_t &path);
 
-    void handle_post(const http_request &message);
+    void handle_post(const http_request &message, const utility::string_t &path, const json::value &payload);
 };
