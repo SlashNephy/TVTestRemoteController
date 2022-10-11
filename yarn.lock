@@ -2124,9 +2124,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-typescript@npm:9.0.0":
-  version: 9.0.0
-  resolution: "@rollup/plugin-typescript@npm:9.0.0"
+"@rollup/plugin-typescript@npm:9.0.1":
+  version: 9.0.1
+  resolution: "@rollup/plugin-typescript@npm:9.0.1"
   dependencies:
     "@rollup/pluginutils": ^4.2.1
     resolve: ^1.22.1
@@ -2139,7 +2139,7 @@ __metadata:
       optional: true
     tslib:
       optional: true
-  checksum: 4621aaf796b75aa84f16f3a19c9525c09540ecc26ad4509c9ea7fd0af16968b8316899616ee0f8624e52304b6081d403da3ef3caaaa67b13ef6cda375f579f1f
+  checksum: 58754e4f8f6429f1eb1b499bb9e4854c0e473644f830defbbc082bc75570f5c539d94118a904684d94d574f1651176b3376d0d91c1d94e96f539e86c72d47e76
   languageName: node
   linkType: hard
 
@@ -7719,7 +7719,7 @@ __metadata:
     "@rollup/plugin-commonjs": 23.0.0
     "@rollup/plugin-node-resolve": 15.0.0
     "@rollup/plugin-replace": 5.0.0
-    "@rollup/plugin-typescript": 9.0.0
+    "@rollup/plugin-typescript": 9.0.1
     "@slashnephy/eslint-config": 0.2.6
     "@slashnephy/prettier-config": 0.1.1
     "@sosukesuzuki/rollup-plugin-bundle-size": 0.1.0
