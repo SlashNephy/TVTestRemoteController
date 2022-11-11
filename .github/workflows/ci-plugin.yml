@@ -42,14 +42,15 @@ jobs:
           msbuild `
             -m `
             -property:Configuration="Release" `
-            -property:Platform="${{ matrix.platform }}"
+            -property:Platform="${{ matrix.platform }}" `
+            -property:OutDir="${{ matrix.platform }}"
 
       - name: Prepare Artifact
         run: |
           New-Item -Path Artifact -ItemType Directory
           New-Item -Path Artifact/Plugins -ItemType Directory
-          Copy-Item -Path ${{ matrix.platform }}/Release/*.tvtp -Destination Artifact/Plugins/
-          Copy-Item -Path ${{ matrix.platform }}/Release/*.dll -Destination Artifact/
+          Copy-Item -Path ${{ matrix.platform }}/*.tvtp -Destination Artifact/Plugins/
+          Copy-Item -Path ${{ matrix.platform }}/*.dll -Destination Artifact/
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
