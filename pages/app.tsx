@@ -1,21 +1,16 @@
 import { ColorSchemeProvider, MantineProvider } from '@mantine/core'
-import { useLocalStorage } from '@mantine/hooks'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
+import { useMemorableColorScheme } from '../lib/useMemorableColorScheme'
 import { Index } from './index'
-
-import type { ColorScheme } from '@mantine/core'
 
 const queryClient = new QueryClient()
 
-const App: React.FC = () => {
-  const [colorScheme, setColorScheme] = useLocalStorage<ColorScheme>({ key: 'color-scheme', defaultValue: 'dark' })
-  const toggleColorScheme = (value?: ColorScheme) => {
-    setColorScheme(value || (colorScheme === 'dark' ? 'light' : 'dark'))
-  }
+export const App: React.FC = () => {
+  const [colorScheme, toggleColorScheme] = useMemorableColorScheme()
 
   return (
     <QueryClientProvider client={queryClient}>

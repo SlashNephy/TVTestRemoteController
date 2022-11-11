@@ -8,7 +8,9 @@ export const ColorSchemeButton: React.FC = () => {
   return (
     <Group position="center" my="xl">
       <ActionIcon
-        onClick={() => toggleColorScheme()}
+        onClick={() => {
+          toggleColorScheme()
+        }}
         size="lg"
         sx={(theme) => ({
           backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],

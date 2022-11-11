@@ -12,7 +12,7 @@ export const VolumeStack: React.FC = () => {
   const [volume, error] = useFetch<Volume>('/api/volume')
   const [current, setCurrent] = React.useState<number>()
 
-  const onChangeEnd = (value?: number) => {
+  const onChangeEnd = (_value?: number) => {
     // TODO: TVTest 側に POST を投げる
   }
 

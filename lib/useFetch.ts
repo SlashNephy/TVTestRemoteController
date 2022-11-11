@@ -9,10 +9,10 @@ const fetcher = <T>(path: string, request?: RequestInit): Fetcher<T> => {
   }
 }
 
-export const useFetch = <T>(url: string) => {
+export const useFetch = <T>(url: string): readonly [T | null, Error | null] => {
   // 開発サーバーではサフィックスに .json を付ける
   const path = process.env.NODE_ENV === 'development' ? `${url}.json` : url
   const { data, error } = useQuery<T, Error>(url, fetcher<T>(path))
 
-  return [data || null, error || null] as const
+  return [data ?? null, error ?? null] as const
 }

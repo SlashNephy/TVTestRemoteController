@@ -5,6 +5,7 @@ import { useFetch } from '../lib/useFetch'
 
 type Channel = {
   name: string
+  // eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents
   type: 'GR' | 'BS' | 'CS' | string
   serviceId: number
 }

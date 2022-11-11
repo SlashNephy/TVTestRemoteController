@@ -10,7 +10,7 @@ import { terser } from 'rollup-plugin-terser'
 
 import type { RollupOptions, Plugin } from 'rollup'
 
-const env = process.env.NODE_ENV || 'production'
+const env = process.env.NODE_ENV ?? 'production'
 const isDevelopment = env === 'development'
 
 const plugins: Plugin[] = [
@@ -39,7 +39,7 @@ const plugins: Plugin[] = [
     livereload({
       watch: ['public'],
     }),
-].filter((x): x is Exclude<typeof x, false> => !!x)
+].filter((x): x is Exclude<typeof x, false> => x !== false)
 
 const config: RollupOptions[] = [
   {

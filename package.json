@@ -1,21 +1,21 @@
 {
   "name": "static",
   "version": "0.0.1",
-  "main": "index.js",
-  "repository": "https://github.com/SlashNephy/TVTestRemoteController",
   "author": "SlashNephy <spica@starry.blue>",
+  "repository": "https://github.com/SlashNephy/TVTestRemoteController",
   "license": "MIT",
+  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "bundle": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
-    "watch": "yarn bundle -w",
     "dev": "NODE_ENV=development yarn watch",
+    "format": "concurrently -n format: 'yarn:format:*'",
+    "format:eslint": "yarn lint:eslint --fix",
+    "format:prettier": "yarn lint:prettier --write",
     "lint": "concurrently -n lint: 'yarn:lint:*'",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
-    "format": "concurrently -n format: 'yarn:format:*'",
-    "format:eslint": "yarn lint:eslint --fix",
-    "format:prettier": "yarn lint:prettier --write"
+    "watch": "yarn bundle -w"
   },
   "dependencies": {
     "@mantine/core": "^5.2.5",
