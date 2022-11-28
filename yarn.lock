@@ -7489,13 +7489,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-serve@npm:2.0.1":
-  version: 2.0.1
-  resolution: "rollup-plugin-serve@npm:2.0.1"
+"rollup-plugin-serve@npm:2.0.2":
+  version: 2.0.2
+  resolution: "rollup-plugin-serve@npm:2.0.2"
   dependencies:
     mime: ">=2.4.6"
     opener: 1
-  checksum: d1cadef91b28d0a04c7ecad7a068a0ff086847f2b1295505f320f38547b879a1d39049efaa6acc52dcfc94abc9881ae392bd4031992b3b53f8439f90ab8a6b70
+  checksum: de74616bc197360d282cabb26aa2f77780b4864364f62562d1d6cb3fd3ba74f956e1ce1bd881edf122e11e234b96132857a760e0668f22aebbd54a0fc55d1bec
   languageName: node
   linkType: hard
 
@@ -7915,7 +7915,7 @@ __metadata:
     react-router-dom: ^6.3.0
     rollup: 3.5.0
     rollup-plugin-livereload: 2.0.5
-    rollup-plugin-serve: 2.0.1
+    rollup-plugin-serve: 2.0.2
     rollup-plugin-terser: 7.0.2
     typescript: 4.9.3
   languageName: unknown
