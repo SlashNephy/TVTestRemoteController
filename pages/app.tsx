@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom/client'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import { useMemorableColorScheme } from '../lib/useMemorableColorScheme'
 import { Index } from './index'
+import { useMemorableColorScheme } from '../lib/useMemorableColorScheme'
 
 const queryClient = new QueryClient()
 
