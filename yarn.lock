@@ -7778,9 +7778,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.15.0":
-  version: 3.15.0
-  resolution: "rollup@npm:3.15.0"
+"rollup@npm:3.16.0":
+  version: 3.16.0
+  resolution: "rollup@npm:3.16.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -7788,7 +7788,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 1a75b09503f705b594dcfebf65b9e1ca4536e3facdf5716e10d4272697b4bb7e6bd8ab35be1b3fe1271f864d4c4a75d012bd77cbe7a55579d5138258b9e85c23
+  checksum: 239178a83317fc4d0f8adb9f8db7be7d560e4f84653ec63baadba9cd66a8d6cbb0d9b2b6b3160fd5413457f645874571b6a9ec5fe573e02facb4ff7776c828b9
   languageName: node
   linkType: hard
 
@@ -8171,7 +8171,7 @@ __metadata:
     react-dom: ^18.2.0
     react-query: ^3.39.2
     react-router-dom: ^6.3.0
-    rollup: 3.15.0
+    rollup: 3.16.0
     rollup-plugin-livereload: 2.0.5
     rollup-plugin-serve: 2.0.2
     rollup-plugin-terser: 7.0.2
