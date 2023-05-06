@@ -40,7 +40,7 @@
     "@rollup/plugin-node-resolve": "15.0.2",
     "@rollup/plugin-replace": "5.0.2",
     "@rollup/plugin-typescript": "11.1.0",
-    "@slashnephy/eslint-config": "0.4.21",
+    "@slashnephy/eslint-config": "0.4.22",
     "@slashnephy/prettier-config": "0.1.16",
     "@sosukesuzuki/rollup-plugin-bundle-size": "0.1.0",
     "@types/react": "18.2.5",
