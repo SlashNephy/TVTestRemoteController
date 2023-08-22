@@ -27,8 +27,8 @@
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
-    "@babel/core": "7.22.5",
-    "@babel/preset-env": "7.22.5",
+    "@babel/core": "7.22.10",
+    "@babel/preset-env": "7.22.10",
     "@babel/preset-react": "7.22.5",
     "@babel/preset-typescript": "7.22.5",
     "@emotion/cache": "11.11.0",
