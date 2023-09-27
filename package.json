@@ -41,7 +41,7 @@
     "@rollup/plugin-replace": "5.0.2",
     "@rollup/plugin-typescript": "11.1.3",
     "@slashnephy/eslint-config": "2.0.7",
-    "@slashnephy/prettier-config": "1.0.4",
+    "@slashnephy/prettier-config": "1.0.5",
     "@sosukesuzuki/rollup-plugin-bundle-size": "0.1.0",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
