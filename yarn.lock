@@ -2578,12 +2578,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/prettier-config@npm:1.0.4":
-  version: 1.0.4
-  resolution: "@slashnephy/prettier-config@npm:1.0.4"
+"@slashnephy/prettier-config@npm:1.0.5":
+  version: 1.0.5
+  resolution: "@slashnephy/prettier-config@npm:1.0.5"
   peerDependencies:
     prettier: ^3
-  checksum: 3dc251facb815e9786d750170c8ed819cd6cda1087244fa6c4e608d2c4460a3f1b79056cb88d61783056b839062da9658bfd40fa7db6f4757c29aa3a9396e2e4
+  checksum: 863f964ce944b6dfb8e3f3274762221e8b0182c6f63e03443a4b6c94b3b358dfa4c09f0c5dd054693afe8d5ba2124ae6eafc88b30b78ec8e06a799160ebe46d0
   languageName: node
   linkType: hard
 
@@ -9075,7 +9075,7 @@ __metadata:
     "@rollup/plugin-replace": 5.0.2
     "@rollup/plugin-typescript": 11.1.3
     "@slashnephy/eslint-config": 2.0.7
-    "@slashnephy/prettier-config": 1.0.4
+    "@slashnephy/prettier-config": 1.0.5
     "@sosukesuzuki/rollup-plugin-bundle-size": 0.1.0
     "@tabler/icons": ^1.93.0
     "@types/react": 18.2.22
