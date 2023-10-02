@@ -2551,9 +2551,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:2.0.17":
-  version: 2.0.17
-  resolution: "@slashnephy/eslint-config@npm:2.0.17"
+"@slashnephy/eslint-config@npm:2.0.18":
+  version: 2.0.18
+  resolution: "@slashnephy/eslint-config@npm:2.0.18"
   dependencies:
     "@emotion/eslint-plugin": 11.11.0
     "@next/eslint-plugin-next": 13.4.19
@@ -2566,7 +2566,7 @@ __metadata:
     eslint-config-standard: 17.1.0
     eslint-gitignore: 0.1.0
     eslint-import-resolver-node: 0.3.9
-    eslint-import-resolver-typescript: 3.5.5
+    eslint-import-resolver-typescript: 3.6.1
     eslint-plugin-css-import-order: 1.1.0
     eslint-plugin-css-reorder: 0.5.1
     eslint-plugin-deprecation: 1.5.0
@@ -2597,7 +2597,7 @@ __metadata:
     yaml-eslint-parser: 1.2.2
   peerDependencies:
     eslint: ^8
-  checksum: 0874addd92e3d5665d41ea6a211e91eeeb0988f2db57634a24ebc7a9dbd0bb9614971406b3cd83be3aeec9649be1c72bce26a676415a5288feb36cbae4de2a73
+  checksum: 8793967eee46d48439f931be6fb49ff4f0ef03e11c69bedb54dd17f59761bdc820a71b027d67b6a356f3acaf7a13b35f9e86e56683a475e0e832c77ae04dd127
   languageName: node
   linkType: hard
 
@@ -4882,7 +4882,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:3.5.5, eslint-import-resolver-typescript@npm:^3.5.2":
+"eslint-import-resolver-typescript@npm:3.6.1":
+  version: 3.6.1
+  resolution: "eslint-import-resolver-typescript@npm:3.6.1"
+  dependencies:
+    debug: ^4.3.4
+    enhanced-resolve: ^5.12.0
+    eslint-module-utils: ^2.7.4
+    fast-glob: ^3.3.1
+    get-tsconfig: ^4.5.0
+    is-core-module: ^2.11.0
+    is-glob: ^4.0.3
+  peerDependencies:
+    eslint: "*"
+    eslint-plugin-import: "*"
+  checksum: 454fa0646533050fb57f13d27daf8c71f51b0bb9156d6a461290ccb8576d892209fcc6702a89553f3f5ea8e5b407395ca2e5de169a952c953685f1f7c46b4496
+  languageName: node
+  linkType: hard
+
+"eslint-import-resolver-typescript@npm:^3.5.2":
   version: 3.5.5
   resolution: "eslint-import-resolver-typescript@npm:3.5.5"
   dependencies:
@@ -5691,7 +5709,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.2":
+"fast-glob@npm:^3.2.2, fast-glob@npm:^3.3.1":
   version: 3.3.1
   resolution: "fast-glob@npm:3.3.1"
   dependencies:
@@ -9336,7 +9354,7 @@ __metadata:
     "@rollup/plugin-node-resolve": 15.2.1
     "@rollup/plugin-replace": 5.0.2
     "@rollup/plugin-typescript": 11.1.4
-    "@slashnephy/eslint-config": 2.0.17
+    "@slashnephy/eslint-config": 2.0.18
     "@slashnephy/prettier-config": 1.0.12
     "@sosukesuzuki/rollup-plugin-bundle-size": 0.1.0
     "@tabler/icons": ^1.93.0
