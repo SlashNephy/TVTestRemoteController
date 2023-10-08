@@ -39,7 +39,7 @@
     "@rollup/plugin-commonjs": "25.0.5",
     "@rollup/plugin-node-resolve": "15.2.2",
     "@rollup/plugin-replace": "5.0.3",
-    "@rollup/plugin-typescript": "11.1.4",
+    "@rollup/plugin-typescript": "11.1.5",
     "@slashnephy/eslint-config": "2.0.30",
     "@slashnephy/prettier-config": "1.0.19",
     "@sosukesuzuki/rollup-plugin-bundle-size": "0.1.0",
