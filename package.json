@@ -47,7 +47,7 @@
     "@types/react-dom": "18.2.14",
     "babel-cli": "6.26.0",
     "concurrently": "8.2.2",
-    "eslint": "8.52.0",
+    "eslint": "8.53.0",
     "prettier": "3.0.3",
     "rollup": "4.3.0",
     "rollup-plugin-livereload": "2.0.5",
