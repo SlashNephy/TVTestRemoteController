@@ -29,7 +29,7 @@
   "devDependencies": {
     "@babel/core": "7.23.3",
     "@babel/preset-env": "7.23.3",
-    "@babel/preset-react": "7.22.15",
+    "@babel/preset-react": "7.23.3",
     "@babel/preset-typescript": "7.23.3",
     "@emotion/cache": "11.11.0",
     "@emotion/react": "11.11.1",
