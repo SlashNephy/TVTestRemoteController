@@ -7897,12 +7897,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime@npm:^3":
-  version: 3.0.0
-  resolution: "mime@npm:3.0.0"
+"mime@npm:^4":
+  version: 4.0.0
+  resolution: "mime@npm:4.0.0"
   bin:
-    mime: cli.js
-  checksum: f43f9b7bfa64534e6b05bd6062961681aeb406a5b53673b53b683f27fcc4e739989941836a355eef831f4478923651ecc739f4a5f6e20a76487b432bfd4db928
+    mime: bin/cli.js
+  checksum: c257e10b9fa6a805ad1fa8e33eafbdf3de7601dd9057ba8fa606416bccee3252457c903c4666638b6f2249d262f1a0951b2faee36c55a18513b31bf0b8b1b431
   languageName: node
   linkType: hard
 
@@ -9285,13 +9285,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-serve@npm:2.0.3":
-  version: 2.0.3
-  resolution: "rollup-plugin-serve@npm:2.0.3"
+"rollup-plugin-serve@npm:3.0.0":
+  version: 3.0.0
+  resolution: "rollup-plugin-serve@npm:3.0.0"
   dependencies:
-    mime: ^3
+    mime: ^4
     opener: 1
-  checksum: e09c5fa4427b8461dced8eabf37c81265eab85aa89f2e987c58cffa702534e32874d918c205f1a4ae588e65e6f026b99939efbf8997383ba7ff1a94b1c6e7997
+  checksum: 8c157124106d8ab90cc25789da40141803c917011923dc12e44a93221de032b3efe4599d7c2ab0d406b1710a0bb7330ed4c8bff819aef5583bfeaa0f4d4f48ef
   languageName: node
   linkType: hard
 
@@ -9790,7 +9790,7 @@ __metadata:
     react-router-dom: ^6.3.0
     rollup: 4.6.1
     rollup-plugin-livereload: 2.0.5
-    rollup-plugin-serve: 2.0.3
+    rollup-plugin-serve: 3.0.0
     rollup-plugin-terser: 7.0.2
     typescript: 5.3.2
   languageName: unknown
