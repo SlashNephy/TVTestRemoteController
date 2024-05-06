@@ -2668,15 +2668,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:2.3.54":
-  version: 2.3.54
-  resolution: "@slashnephy/eslint-config@npm:2.3.54"
+"@slashnephy/eslint-config@npm:2.3.57":
+  version: 2.3.57
+  resolution: "@slashnephy/eslint-config@npm:2.3.57"
   dependencies:
     "@emotion/eslint-plugin": 11.11.0
     "@graphql-eslint/eslint-plugin": 3.20.1
     "@next/eslint-plugin-next": 14.2.3
     "@rushstack/eslint-patch": 1.10.2
-    "@stylistic/eslint-plugin": 1.7.2
+    "@stylistic/eslint-plugin": 1.8.0
     "@susisu/eslint-plugin-safe-typescript": 0.7.0
     "@typescript-eslint/eslint-plugin": 7.2.0
     "@typescript-eslint/parser": 7.2.0
@@ -2695,7 +2695,7 @@ __metadata:
     eslint-plugin-jest: 28.3.0
     eslint-plugin-jest-formatting: 3.1.0
     eslint-plugin-jsx-a11y: 6.8.0
-    eslint-plugin-n: 17.3.1
+    eslint-plugin-n: 17.4.0
     eslint-plugin-no-void-return-type: 1.0.2
     eslint-plugin-node: 11.1.0
     eslint-plugin-package-json: 0.2.0
@@ -2706,7 +2706,7 @@ __metadata:
     eslint-plugin-relay: 1.8.3
     eslint-plugin-storybook: 0.8.0
     eslint-plugin-tsdoc: 0.2.17
-    eslint-plugin-unused-imports: 3.1.0
+    eslint-plugin-unused-imports: 3.2.0
     eslint-plugin-userscripts: 0.5.2
     eslint-plugin-vitest: 0.5.4
     eslint-plugin-xss: 0.1.12
@@ -2716,7 +2716,7 @@ __metadata:
     yaml-eslint-parser: 1.2.2
   peerDependencies:
     eslint: ^8
-  checksum: 74db2829f1802064f5acd9d030233df50700a8981e88921338ba5f7e7c627e9b907aae2dcd9b42297b1f3cbc95f6389353497083fa3e61965d50409c97b9b3d9
+  checksum: e26898cdd7c10bdf45b6f79188a9b9ba15bff9ccf18780246a10cb450044dfd45c9e5353536369b8bb57f37fc8c8dce33960d25a7b85f7fb7a6c50b1fb1674b6
   languageName: node
   linkType: hard
 
@@ -2749,22 +2749,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stylistic/eslint-plugin-js@npm:1.7.2":
-  version: 1.7.2
-  resolution: "@stylistic/eslint-plugin-js@npm:1.7.2"
-  dependencies:
-    "@types/eslint": ^8.56.8
-    acorn: ^8.11.3
-    escape-string-regexp: ^4.0.0
-    eslint-visitor-keys: ^3.4.3
-    espree: ^9.6.1
-  peerDependencies:
-    eslint: ">=8.40.0"
-  checksum: d4acc21585cf301778013c325c9b5a7525905bfccc83a91f4eaee95d99444b701bed171256f78958fb9e60d4ec4e9db7ffb82c23c00fec7a3b4d93439f42d96f
-  languageName: node
-  linkType: hard
-
-"@stylistic/eslint-plugin-js@npm:^1.7.2":
+"@stylistic/eslint-plugin-js@npm:1.8.0, @stylistic/eslint-plugin-js@npm:^1.8.0":
   version: 1.8.0
   resolution: "@stylistic/eslint-plugin-js@npm:1.8.0"
   dependencies:
@@ -2779,57 +2764,57 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stylistic/eslint-plugin-jsx@npm:1.7.2":
-  version: 1.7.2
-  resolution: "@stylistic/eslint-plugin-jsx@npm:1.7.2"
+"@stylistic/eslint-plugin-jsx@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@stylistic/eslint-plugin-jsx@npm:1.8.0"
   dependencies:
-    "@stylistic/eslint-plugin-js": ^1.7.2
-    "@types/eslint": ^8.56.8
+    "@stylistic/eslint-plugin-js": ^1.8.0
+    "@types/eslint": ^8.56.10
     estraverse: ^5.3.0
     picomatch: ^4.0.2
   peerDependencies:
     eslint: ">=8.40.0"
-  checksum: c784d52b7ea7f4b50d6adf9de063bbf319ef2a77dcc24cb324f15d325f38cfb982106b1dd160e0fce93790de3317e7b97599ac6152e5118a079063a33cfbecc6
+  checksum: c5c86a50546f17ca0d3253fd0df1f07711d01bcdb2281a65d48c432ddfb97c18504e568fbfbd11c2f1b2a565682aee04c2308995b4741fe6fa38ed8056ecb26c
   languageName: node
   linkType: hard
 
-"@stylistic/eslint-plugin-plus@npm:1.7.2":
-  version: 1.7.2
-  resolution: "@stylistic/eslint-plugin-plus@npm:1.7.2"
+"@stylistic/eslint-plugin-plus@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@stylistic/eslint-plugin-plus@npm:1.8.0"
   dependencies:
-    "@types/eslint": ^8.56.8
+    "@types/eslint": ^8.56.10
     "@typescript-eslint/utils": ^6.21.0
   peerDependencies:
     eslint: "*"
-  checksum: 8c80ae9b8b265aa8333ec0bcd0ccd097831b55a67c35598a92129c0f9e68468f1f474e0730d065d92235e8ad7885b8459698ab5629a179dad6855e6dc10da144
+  checksum: e6066fbed4cd9740ac8aebc45be8c278cd315d12de565ed73d874ca2d0e591292ecc1accd6eb2fd5056dd699b5d132ba4c7c17df84b406d6c73d8bce3444c630
   languageName: node
   linkType: hard
 
-"@stylistic/eslint-plugin-ts@npm:1.7.2":
-  version: 1.7.2
-  resolution: "@stylistic/eslint-plugin-ts@npm:1.7.2"
+"@stylistic/eslint-plugin-ts@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@stylistic/eslint-plugin-ts@npm:1.8.0"
   dependencies:
-    "@stylistic/eslint-plugin-js": 1.7.2
-    "@types/eslint": ^8.56.8
+    "@stylistic/eslint-plugin-js": 1.8.0
+    "@types/eslint": ^8.56.10
     "@typescript-eslint/utils": ^6.21.0
   peerDependencies:
     eslint: ">=8.40.0"
-  checksum: 83d3ba554f5e6dd6238776c38e39ad0ebc89a86b67e8e56e2a3f2057b327769abe44057eeb28631f8467f51721ffbe5f4e2e92e995f46470ad90bdb57a4fa6bc
+  checksum: 8325426089cf324509a784b3a8ceea826760896889de246e62a9e14aeb0e74603c8c59cc8f03decf58057cc7bef3476974b5a1911e1cff3d808fa7917f4f15b3
   languageName: node
   linkType: hard
 
-"@stylistic/eslint-plugin@npm:1.7.2":
-  version: 1.7.2
-  resolution: "@stylistic/eslint-plugin@npm:1.7.2"
+"@stylistic/eslint-plugin@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@stylistic/eslint-plugin@npm:1.8.0"
   dependencies:
-    "@stylistic/eslint-plugin-js": 1.7.2
-    "@stylistic/eslint-plugin-jsx": 1.7.2
-    "@stylistic/eslint-plugin-plus": 1.7.2
-    "@stylistic/eslint-plugin-ts": 1.7.2
-    "@types/eslint": ^8.56.8
+    "@stylistic/eslint-plugin-js": 1.8.0
+    "@stylistic/eslint-plugin-jsx": 1.8.0
+    "@stylistic/eslint-plugin-plus": 1.8.0
+    "@stylistic/eslint-plugin-ts": 1.8.0
+    "@types/eslint": ^8.56.10
   peerDependencies:
     eslint: ">=8.40.0"
-  checksum: d28dd0d74eaf5877747375a1773a77b289f338e5b42e8ab7e215d5f4e80c32d6a8e202c877c494f3a7e8fcc8a58f6f91bcc1eb68d0adeb39cb0a9c934b140dfe
+  checksum: 029dc42e03aaf7b2c6722593ee06f23dc10ee5cd45e6d0e6d6a10c81938cbef901f5e87703401d10f3072e1eef60636366453529aca6f28d044485e854315183
   languageName: node
   linkType: hard
 
@@ -2867,7 +2852,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^8.56.10, @types/eslint@npm:^8.56.8":
+"@types/eslint@npm:^8.56.10":
   version: 8.56.10
   resolution: "@types/eslint@npm:8.56.10"
   dependencies:
@@ -5294,9 +5279,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:17.3.1":
-  version: 17.3.1
-  resolution: "eslint-plugin-n@npm:17.3.1"
+"eslint-plugin-n@npm:17.4.0":
+  version: 17.4.0
+  resolution: "eslint-plugin-n@npm:17.4.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.4.0
     enhanced-resolve: ^5.15.0
@@ -5308,7 +5293,7 @@ __metadata:
     semver: ^7.5.3
   peerDependencies:
     eslint: ">=8.23.0"
-  checksum: 37d7bbda1bc3888fe5a88e1d16fa27eea903cef19404c5233ad2b74ec9ac9d234498d752533d73c805d48956772ed73e0118a0b9f717a5b9ef09a6907241c82c
+  checksum: e36279911ea967994c1546e412d02ab48a5d8a4182c43844a975b7dd97c61afad5ee124abb1ac9da0e1e195fc95559c4c914215d4e41fba55ddf47bfb4fc017b
   languageName: node
   linkType: hard
 
@@ -5446,9 +5431,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unused-imports@npm:3.1.0":
-  version: 3.1.0
-  resolution: "eslint-plugin-unused-imports@npm:3.1.0"
+"eslint-plugin-unused-imports@npm:3.2.0":
+  version: 3.2.0
+  resolution: "eslint-plugin-unused-imports@npm:3.2.0"
   dependencies:
     eslint-rule-composer: ^0.3.0
   peerDependencies:
@@ -5457,7 +5442,7 @@ __metadata:
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
-  checksum: c41da339ea8faf40b8b4081f0d52a4c75d24f121c5b95b19b777d12abfbc23505e4aab2422918b2517dd239a749a38912fb3405b42a9aa6b50c32cf5f3d6ecf0
+  checksum: e85ae4f3af489294ef5e0969ab904fa87f9fa7c959ca0804f30845438db4aeb0428ddad7ab06a70608e93121626799977241b442fdf126a4d0667be57390c3d6
   languageName: node
   linkType: hard
 
@@ -9491,7 +9476,7 @@ __metadata:
     "@rollup/plugin-replace": 5.0.5
     "@rollup/plugin-terser": 0.4.4
     "@rollup/plugin-typescript": 11.1.6
-    "@slashnephy/eslint-config": 2.3.54
+    "@slashnephy/eslint-config": 2.3.57
     "@slashnephy/prettier-config": 1.0.73
     "@sosukesuzuki/rollup-plugin-bundle-size": 0.1.0
     "@tabler/icons": ^1.93.0
