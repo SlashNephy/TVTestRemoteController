@@ -2926,18 +2926,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tabler/icons@npm:^1.93.0":
-  version: 1.119.0
-  resolution: "@tabler/icons@npm:1.119.0"
-  peerDependencies:
-    react: ^16.x || 17.x || 18.x
-    react-dom: ^16.x || 17.x || 18.x
-  peerDependenciesMeta:
-    react:
-      optional: true
-    react-dom:
-      optional: true
-  checksum: ef1ac50c1a47b2205cb86ca43c28d69c7b8f547ad9c2c5545190fc4a455e9767f49cb511a6f9e8dc45b046ee7d2dab3d2c87af4fd5bbb1694832a15698158753
+"@tabler/icons@npm:^3.0.0":
+  version: 3.5.0
+  resolution: "@tabler/icons@npm:3.5.0"
+  checksum: 15301b713736d1d60012719614ac418c7a94fd06450821ace125d0c6d1257aa491cbf53502b877596bb32814b53a80e0366026760cb62fae948940d1dea717d8
   languageName: node
   linkType: hard
 
@@ -9576,7 +9568,7 @@ __metadata:
     "@slashnephy/eslint-config": 2.3.84
     "@slashnephy/prettier-config": 1.0.73
     "@sosukesuzuki/rollup-plugin-bundle-size": 0.1.0
-    "@tabler/icons": ^1.93.0
+    "@tabler/icons": ^3.0.0
     "@types/react": 18.3.3
     "@types/react-dom": 18.3.0
     babel-cli: 6.26.0
