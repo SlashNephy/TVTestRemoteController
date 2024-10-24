@@ -2514,9 +2514,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:2.3.127":
-  version: 2.3.127
-  resolution: "@slashnephy/eslint-config@npm:2.3.127"
+"@slashnephy/eslint-config@npm:2.3.129":
+  version: 2.3.129
+  resolution: "@slashnephy/eslint-config@npm:2.3.129"
   dependencies:
     "@emotion/eslint-plugin": 11.12.0
     "@graphql-eslint/eslint-plugin": 3.20.1
@@ -2541,7 +2541,7 @@ __metadata:
     eslint-plugin-import: 2.31.0
     eslint-plugin-jest: 28.8.3
     eslint-plugin-jest-formatting: 3.1.0
-    eslint-plugin-jsx-a11y: 6.10.0
+    eslint-plugin-jsx-a11y: 6.10.1
     eslint-plugin-n: 17.11.1
     eslint-plugin-no-void-return-type: 1.0.2
     eslint-plugin-node: 11.1.0
@@ -2549,7 +2549,7 @@ __metadata:
     eslint-plugin-promise: 7.1.0
     eslint-plugin-react: 7.37.1
     eslint-plugin-react-hooks: 5.0.0
-    eslint-plugin-react-refresh: 0.4.12
+    eslint-plugin-react-refresh: 0.4.13
     eslint-plugin-relay: 1.8.3
     eslint-plugin-storybook: 0.9.0
     eslint-plugin-tsdoc: 0.3.0
@@ -2562,7 +2562,7 @@ __metadata:
     yaml-eslint-parser: 1.2.3
   peerDependencies:
     eslint: ^8
-  checksum: 7831b6d1877c5bf4d832b698b6696f49e48b7edc623d81a81011b6ea7b78e80b41d115957b21e7fde4901445719e545fb6311a0ca585f9a58793771f9c98dcce
+  checksum: 3f4e1d9d7bc175b31b392c81439b59b0263c8f02c1faa615177cee54436a58cfdc2a1c097c086df53ff1cbeb39aad1cd1f4c067dd0b9eb80e9f5188a2575fa9c
   languageName: node
   linkType: hard
 
@@ -3330,6 +3330,13 @@ __metadata:
   dependencies:
     tslib: ^2.0.0
   checksum: 2ac90b70d29c6349d86d90e022cf01f4885f9be193932d943a14127cf28560dd0baf068a6625f084163437a4be0578f513cf7892f4cc63bfe91aa41dce27c6b2
+  languageName: node
+  linkType: hard
+
+"aria-query@npm:^5.3.2":
+  version: 5.3.2
+  resolution: "aria-query@npm:5.3.2"
+  checksum: d971175c85c10df0f6d14adfe6f1292409196114ab3c62f238e208b53103686f46cc70695a4f775b73bc65f6a09b6a092fd963c4f3a5a7d690c8fc5094925717
   languageName: node
   linkType: hard
 
@@ -4767,7 +4774,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-iterator-helpers@npm:^1.0.19":
+"es-iterator-helpers@npm:^1.0.19, es-iterator-helpers@npm:^1.1.0":
   version: 1.1.0
   resolution: "es-iterator-helpers@npm:1.1.0"
   dependencies:
@@ -5131,7 +5138,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsx-a11y@npm:6.10.0, eslint-plugin-jsx-a11y@npm:^6.7.1":
+"eslint-plugin-jsx-a11y@npm:6.10.1":
+  version: 6.10.1
+  resolution: "eslint-plugin-jsx-a11y@npm:6.10.1"
+  dependencies:
+    aria-query: ^5.3.2
+    array-includes: ^3.1.8
+    array.prototype.flatmap: ^1.3.2
+    ast-types-flow: ^0.0.8
+    axe-core: ^4.10.0
+    axobject-query: ^4.1.0
+    damerau-levenshtein: ^1.0.8
+    emoji-regex: ^9.2.2
+    es-iterator-helpers: ^1.1.0
+    hasown: ^2.0.2
+    jsx-ast-utils: ^3.3.5
+    language-tags: ^1.0.9
+    minimatch: ^3.1.2
+    object.fromentries: ^2.0.8
+    safe-regex-test: ^1.0.3
+    string.prototype.includes: ^2.0.1
+  peerDependencies:
+    eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
+  checksum: 6399ed556306edd454c3d835fee475e6a286aa44c8fb95b4e9245717ff26f7a251f38d75e194293d78fdbc8f2fdbf223573ac2c82dc1e2db3d5d6c137632b6ec
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-jsx-a11y@npm:^6.7.1":
   version: 6.10.0
   resolution: "eslint-plugin-jsx-a11y@npm:6.10.0"
   dependencies:
@@ -5239,12 +5272,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-refresh@npm:0.4.12":
-  version: 0.4.12
-  resolution: "eslint-plugin-react-refresh@npm:0.4.12"
+"eslint-plugin-react-refresh@npm:0.4.13":
+  version: 0.4.13
+  resolution: "eslint-plugin-react-refresh@npm:0.4.13"
   peerDependencies:
     eslint: ">=7"
-  checksum: 7492caa57cc7f461f55781e5503086ae2473489c235e3457baf8123b5c325a215062af002a8b6858f54509dd756c86f7b253b3cda68b411b75a0cab08eec6597
+  checksum: c57fecb87043cbf1a7a1cc3c7e6a66c78d0e4ad58632a97fe0e5d3305c95806b785bdb0606fc54403f693e1b98b1a4a07fc36bdc71f373ecac32ea0470c94fd1
   languageName: node
   linkType: hard
 
@@ -9312,7 +9345,7 @@ __metadata:
     "@rollup/plugin-replace": 6.0.1
     "@rollup/plugin-terser": 0.4.4
     "@rollup/plugin-typescript": 12.1.1
-    "@slashnephy/eslint-config": 2.3.127
+    "@slashnephy/eslint-config": 2.3.129
     "@slashnephy/prettier-config": 1.0.73
     "@sosukesuzuki/rollup-plugin-bundle-size": 0.1.0
     "@tabler/icons": ^1.93.0
@@ -9378,7 +9411,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string.prototype.includes@npm:^2.0.0":
+"string.prototype.includes@npm:^2.0.0, string.prototype.includes@npm:^2.0.1":
   version: 2.0.1
   resolution: "string.prototype.includes@npm:2.0.1"
   dependencies:
