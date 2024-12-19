@@ -2319,9 +2319,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-replace@npm:6.0.1":
-  version: 6.0.1
-  resolution: "@rollup/plugin-replace@npm:6.0.1"
+"@rollup/plugin-replace@npm:6.0.2":
+  version: 6.0.2
+  resolution: "@rollup/plugin-replace@npm:6.0.2"
   dependencies:
     "@rollup/pluginutils": ^5.0.1
     magic-string: ^0.30.3
@@ -2330,7 +2330,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: fdb9a3c7596547d3fab763efe8ed0cec9c82bed7dadcc2dccbbae2b69651f04109b7d49498c54c3c9bb0df2375f0015927598c9d31c36c3366bd86bc2d0ff60a
+  checksum: ef1af8d8cfca3ecf95c85bbcccf6fea3619343f6fc7c48b23ece6485a21622b74ab093a971ffc177af04468aef45c278d3b8a82f7a426d2c25da1061923cf943
   languageName: node
   linkType: hard
 
@@ -9166,7 +9166,7 @@ __metadata:
     "@rollup/plugin-babel": 6.0.4
     "@rollup/plugin-commonjs": 28.0.2
     "@rollup/plugin-node-resolve": 15.3.1
-    "@rollup/plugin-replace": 6.0.1
+    "@rollup/plugin-replace": 6.0.2
     "@rollup/plugin-terser": 0.4.4
     "@rollup/plugin-typescript": 12.1.1
     "@slashnephy/eslint-config": 2.3.157
