@@ -2532,9 +2532,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/eslint-config@npm:2.3.157":
-  version: 2.3.157
-  resolution: "@slashnephy/eslint-config@npm:2.3.157"
+"@slashnephy/eslint-config@npm:2.3.158":
+  version: 2.3.158
+  resolution: "@slashnephy/eslint-config@npm:2.3.158"
   dependencies:
     "@emotion/eslint-plugin": 11.12.0
     "@graphql-eslint/eslint-plugin": 3.20.1
@@ -2575,12 +2575,12 @@ __metadata:
     eslint-plugin-userscripts: 0.5.6
     eslint-plugin-xss: 0.1.12
     eslint-plugin-yml: 1.16.0
-    graphql: 16.9.0
+    graphql: 16.10.0
     typescript: 5.7.2
     yaml-eslint-parser: 1.2.3
   peerDependencies:
     eslint: ^8
-  checksum: 27dd77fb21e3d22dcc1e55fa6cbdbab53ab97d1a938c4ed081ee4e2f48e20ca7176dbbac68e365e7f2c9b817f3091d07a5fb81874b68c7aa3d6d754d6995f97b
+  checksum: 1354f6ecfa54e052d75bd02cb00ca59a86c48f6530ed21f78a078fddc7e6ef9fddaeffb0d19cbd50a786e2a5ac7e28113bf7f5968686fc9b84fe00ad3610d5a6
   languageName: node
   linkType: hard
 
@@ -6119,10 +6119,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:16.9.0":
-  version: 16.9.0
-  resolution: "graphql@npm:16.9.0"
-  checksum: 8cb3d54100e9227310383ce7f791ca48d12f15ed9f2021f23f8735f1121aafe4e5e611a853081dd935ce221724ea1ae4638faef5d2921fb1ad7c26b5f46611e9
+"graphql@npm:16.10.0":
+  version: 16.10.0
+  resolution: "graphql@npm:16.10.0"
+  checksum: 969c2d1061d69ad6fe08a7fe642428212b0b8485a2f9b5d8650203eb6c3221479e81ec6a757708f849d84b85afcb3ebc5a8ff2f71778bb66c5e4850f051c170e
   languageName: node
   linkType: hard
 
@@ -9169,7 +9169,7 @@ __metadata:
     "@rollup/plugin-replace": 6.0.2
     "@rollup/plugin-terser": 0.4.4
     "@rollup/plugin-typescript": 12.1.2
-    "@slashnephy/eslint-config": 2.3.157
+    "@slashnephy/eslint-config": 2.3.158
     "@slashnephy/prettier-config": 1.0.73
     "@sosukesuzuki/rollup-plugin-bundle-size": 0.1.0
     "@tabler/icons": ^1.93.0
