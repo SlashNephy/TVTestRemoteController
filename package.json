@@ -43,7 +43,7 @@
     "@slashnephy/eslint-config": "2.3.157",
     "@slashnephy/prettier-config": "1.0.73",
     "@sosukesuzuki/rollup-plugin-bundle-size": "0.1.0",
-    "@types/react": "18.3.16",
+    "@types/react": "18.3.17",
     "@types/react-dom": "18.3.5",
     "babel-cli": "6.26.0",
     "concurrently": "9.1.0",
