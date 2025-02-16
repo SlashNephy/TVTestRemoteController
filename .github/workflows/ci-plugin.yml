@@ -53,7 +53,7 @@ jobs:
           Copy-Item -Path ${{ matrix.platform }}/*.dll -Destination Artifact/
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: 'TVTestRemoteController_${{ matrix.platform }}'
           if-no-files-found: 'error'
