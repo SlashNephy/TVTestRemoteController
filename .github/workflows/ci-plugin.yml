@@ -64,7 +64,7 @@ jobs:
         run: Compress-Archive -Path Artifact/* -DestinationPath TVTestRemoteController_${{ matrix.platform }}.zip
 
       - name: Upload Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: 'TVTestRemoteController_${{ matrix.platform }}.zip'
