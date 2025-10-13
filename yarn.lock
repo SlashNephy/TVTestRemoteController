@@ -2302,9 +2302,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-node-resolve@npm:16.0.0":
-  version: 16.0.0
-  resolution: "@rollup/plugin-node-resolve@npm:16.0.0"
+"@rollup/plugin-node-resolve@npm:16.0.3":
+  version: 16.0.3
+  resolution: "@rollup/plugin-node-resolve@npm:16.0.3"
   dependencies:
     "@rollup/pluginutils": ^5.0.1
     "@types/resolve": 1.20.2
@@ -2316,7 +2316,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 44e348dd3c25ae9642d1a73b085ff0dc0258f74e98c9a21089354b244d9834db265952b9ff9e1d490e227cd8084f8d0fbb2dc6ccfb8bbc4dac3081a619e66660
+  checksum: 2e453cf365f1fa5602c94d2344468cb6c4c0b777ade97694bbe14913aa29f65e11d0be6ef840cb3088c746b8f5055623714cd168a5f948dc9cfef896875e616e
   languageName: node
   linkType: hard
 
@@ -9341,7 +9341,7 @@ __metadata:
     "@mantine/hooks": ^5.2.5
     "@rollup/plugin-babel": 6.0.4
     "@rollup/plugin-commonjs": 28.0.2
-    "@rollup/plugin-node-resolve": 16.0.0
+    "@rollup/plugin-node-resolve": 16.0.3
     "@rollup/plugin-replace": 6.0.2
     "@rollup/plugin-terser": 0.4.4
     "@rollup/plugin-typescript": 12.1.2
