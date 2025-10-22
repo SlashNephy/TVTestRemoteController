@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup MSBuild
-        uses: microsoft/setup-msbuild@v1
+        uses: microsoft/setup-msbuild@ede762b26a2de8d110bb5a3db4d7e0e080c0e917 # v1.3.3
 
       - name: Setup vcpkg
         uses: lukka/run-vcpkg@v7
