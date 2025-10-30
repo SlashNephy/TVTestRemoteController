@@ -2282,9 +2282,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-commonjs@npm:28.0.2":
-  version: 28.0.2
-  resolution: "@rollup/plugin-commonjs@npm:28.0.2"
+"@rollup/plugin-commonjs@npm:29.0.0":
+  version: 29.0.0
+  resolution: "@rollup/plugin-commonjs@npm:29.0.0"
   dependencies:
     "@rollup/pluginutils": ^5.0.1
     commondir: ^1.0.1
@@ -2298,7 +2298,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: b27a081a16df63f5f74d1aaa7f17a5ebb57ec73f5226f6e85044ec525b13023d8eb65349ddea415a5ef4ba093c71989c38df274e408cce4cb1c6f9aaea9d2de5
+  checksum: 308fd9880c1e2b6ed5a3b717e44d353d0e31288757fbadb118fe363804dede6db31e689f02253a612f08f304dba2afc735eca9b5208e17a94840cc30bf1c17e0
   languageName: node
   linkType: hard
 
@@ -9340,7 +9340,7 @@ __metadata:
     "@mantine/core": ^5.2.5
     "@mantine/hooks": ^5.2.5
     "@rollup/plugin-babel": 6.0.4
-    "@rollup/plugin-commonjs": 28.0.2
+    "@rollup/plugin-commonjs": 29.0.0
     "@rollup/plugin-node-resolve": 16.0.0
     "@rollup/plugin-replace": 6.0.2
     "@rollup/plugin-terser": 0.4.4
